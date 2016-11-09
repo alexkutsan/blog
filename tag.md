@@ -34,4 +34,3 @@ permalink: /tag/
 ---
 
 {% endfor %}
-End
