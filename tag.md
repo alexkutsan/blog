@@ -9,7 +9,7 @@ permalink: /tag/
 <ul class="tags">
 {% for tag in site.tags %}
   {% assign t = tag | first %}
-  <a href="/tag/#{{t | downcase | replace:" ","-" }}">{{ t | downcase }}</a> 
+  <a href="/tag/#{{t | downcase | replace:" ","-" }}">@{{ t | downcase }}</a> 
 {% endfor %}
 </ul>
 
@@ -19,7 +19,7 @@ permalink: /tag/
   {% assign t = tag | first %}
   {% assign posts = tag | last %}
 
-<h4><a name="{{t | downcase | replace:" ","-" }}"></a><a class="internal" href="/tag/#{{t | downcase | replace:" ","-" }}">{{ t | downcase }}</a></h4>
+<h4><a name="{{t | downcase | replace:" ","-" }}"></a><a class="internal" href="/tag/#{{t | downcase | replace:" ","-" }}">@{{ t | downcase }}</a></h4>
 <ul>
 {% for post in posts %}
   {% if post.tags contains t %}
