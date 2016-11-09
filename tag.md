@@ -21,18 +21,18 @@ permalink: /tag/
 
 <div class="tag">
 <h4><a name="{{t | downcase | replace:" ","-" }}"></a><a class="internal" href="/tag/#{{t | downcase | replace:" ","-" }}">@{{ t | downcase }}</a></h4>
+</div>
 
 <ul>
 {% for post in posts %}
   {% if post.tags contains t %}
   <li style="list-style-type:circle" >
-    <a href="{{ post.url }}">{{ post.title }}</a>
+    <div class="tag"> <a href="{{ post.url }}">{{ post.title }}</a> </div>
     <span class="date">{{ post.date | date: "%B %-d, %Y"  }}</span> 
   </li>
   {% endif %}
 {% endfor %}
 </ul>
-</div>
 
 ---
 
