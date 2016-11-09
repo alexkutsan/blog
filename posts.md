@@ -4,7 +4,11 @@ title: Blog Posts
 permalink: /posts/
 ---
 
-    <h1>Blog Posts : </h1>
+<div class="post__back">
+    <a href="/">&lt;-- home</a>
+</div>
+
+<h1>Blog Posts : </h1>
     <ul>
         {% for post in site.posts %}
         <li>
