@@ -4,12 +4,12 @@ title: Blog Posts by Tag
 permalink: /tag/
 ---
 
-Click on a tag to see relevant list of posts.
+# Click on a tag to see relevant list of posts.
 
 <ul class="tags">
 {% for tag in site.tags %}
   {% assign t = tag | first %}
-  <li><a href="/tag/#{{t | downcase | replace:" ","-" }}">{{ t | downcase }}</a></li>
+  <a href="/tag/#{{t | downcase | replace:" ","-" }}">{{ t | downcase }}</a> 
 {% endfor %}
 </ul>
 
