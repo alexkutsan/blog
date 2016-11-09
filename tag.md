@@ -10,7 +10,7 @@ permalink: /tag/
 <ul>
 {% for tag in site.tags %}
   {% assign t = tag | first %}
-  <a href="/tag/#{{t | downcase | replace:" ","-" }}">@{{ t | downcase }}</a> 
+  <a href="/tag/#{{t | downcase | replace:" ","-" }}">{{ t | downcase }}</a> 
 {% endfor %}
 </ul>
 </div>
@@ -21,7 +21,7 @@ permalink: /tag/
   {% assign posts = tag | last %}
 
 <div class="tag">
-<h4><a name="{{t | downcase | replace:" ","-" }}"></a><a class="internal" href="/tag/#{{t | downcase | replace:" ","-" }}">@{{ t | downcase }}</a></h4>
+<h4><a name="{{t | downcase | replace:" ","-" }}"></a><a class="internal" href="/tag/#{{t | downcase | replace:" ","-" }}">{{ t | downcase }}</a></h4>
 </div>
 
 <ul>
