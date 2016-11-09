@@ -4,7 +4,7 @@ title: Blog Posts by Tag
 permalink: /tag/
 ---
 
-<h3> Click on a tag to see relevant list of posts. </h3>
+<h2> Click on a tag to see relevant list of posts. </h2>
 
 <ul class="tags">
 {% for tag in site.tags %}
