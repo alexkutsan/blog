@@ -32,5 +32,4 @@ permalink: /tag/
 </ul>
 
 ---
-
 {% endfor %}
