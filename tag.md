@@ -9,7 +9,7 @@ permalink: /tag/
 <ul>
 {% for tag in site.tags %}
   {% assign t = tag | first %}
-  <a class="tag" href="/tag/#{{t | downcase | replace:" ","-" }}">@{{ t | downcase }}</a> 
+  <li> <a class="tag" href="/tag/#{{t | downcase | replace:" ","-" }}">@{{ t | downcase }}</a> </li>
 {% endfor %}
 </ul>
 
