@@ -12,6 +12,12 @@ comments: true
     </div>
     <div class="post__date">
     	<p>{{ page.date | date: '%B %-d, %Y' }}</p>
+        tags: <span class="tag"> 
+
+                {% for tag in page.tags %}
+                    <a href="/tag/#{{tag | downcase | replace:" ","-" }}">{{ tag | downcase }}</a> 
+                {% endfor %}
+        </span>
     </div>
     <div class="post__meta">
     	<p>{{ tags_content }}</p>
