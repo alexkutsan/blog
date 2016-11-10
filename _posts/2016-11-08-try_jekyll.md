@@ -36,7 +36,7 @@ Also I *would* **like** `to test` ```some features``` ~~of markdown~~ in this po
 3. lists
 
 - [x] Task
-- [] lists
+- [ ] lists
 - [x] with
 - [x] Markdown
 
