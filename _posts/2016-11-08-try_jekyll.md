@@ -25,9 +25,11 @@ And image inserting:
 *Pretty kitty*
 
 Also pice of code:
-```ruby
-require 'redcarpet'
-markdown = Redcarpet.new("Hello World!")
-puts markdown.to_html
-```
+
+{% highlight C++ %} 
+int main() {
+  return 0;
+}
+{% endhighlight %}
+
 :+1: This PR looks great  :shipit:
