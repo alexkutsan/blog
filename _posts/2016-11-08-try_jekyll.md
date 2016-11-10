@@ -3,14 +3,18 @@ layout: post
 title: Try jekyll blog platform.
 tags: [jekyll]
 ---
+# Hello World
 
 Hi, I decided to create technical blog, where I will write interesting problems that I am face with. 
 I fount out that github allows to host *dynamical* sites! I think that it is rely awesome!
 It is rather difficult to create blog on static html pages. 
+
+## Hello Jekyll
 There fore good people create site generators that parce some simplified structure and 
 creates static web pages. Jekyll is one of them.
 It allows create site strucutre using YAML and write blog posts with Markdown
 
+### Jekyll templates
 A lot of smart gust created a lot of awesome templates for Jekyll. http://jekyllthemes.org/ 
 I like minimalizm, so I forked template from https://github.com/getmicah/blog 
 After forking I chenged templte a bit. 
@@ -18,21 +22,53 @@ Main changes:
 - tags support 
 - blog posts comments with https://disqus.com/ 
 
+### Jekyll test:
+#### Common markdown staff
+Also I *would* **like** `to test` ```some features``` ~~of markdown~~ in this post :-)
+> For exmaple markdown comments
 
-Also I *would* **like** `to test` ```some features``` _*of markdown*_ in this post :-)
-And image inserting:
+* Markdown
+* unordered
+* lists
 
+1. Ordered
+2. Markdown
+3. lists
+
+- [x] Task
+- [] lists
+- [x] with
+- [x] Markdown
+
+#### Tables:
+
+First Header | Second Header
+------------ | -------------
+Content from cell 1 | Content from cell 2
+Content in the first column | Content in the second column
+
+
+#### And image inserting:
 ![small kkitty](/staff/images.duckduckgo.com.jpe){:class="small"}
 ![medium kitty](/staff/images.duckduckgo.com.jpe){:class="medium"}
 ![large kitty](/staff/images.duckduckgo.com.jpe){:class="large"}
 ![extra large kitty](/staff/images.duckduckgo.com.jpe){:class="extralarge"}
 
-Also pice of code :
+
+#### Also pice of code :
 {% highlight C++ %} 
 int main() {
   return 0;
 }
 {% endhighlight %}
+
+
+
+And Task list 
+- [x] @mentions, #refs, [links](), **formatting**, and <del>tags</del> supported
+- [x] list syntax required (any unordered or ordered list supported)
+- [x] this is a complete item
+- [ ] this is an incomplete item
 
 End using emoji:
 bowtie:
