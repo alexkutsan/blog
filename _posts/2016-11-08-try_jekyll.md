@@ -21,9 +21,7 @@ Main changes:
 
 Also I *would* **like** `to test` ```some features``` _*of markdown*_ in this post :-)
 And image inserting:
-{:height="36px" width="36px"}
-![pretty kitty](/staff/images.duckduckgo.com.jpe)
-*Pretty kitty*
+![image-title-here](/staff/images.duckduckgo.com.jpe){:class="img-responsive"}
 
 Also pice of code:
 {% highlight C++ %} 
