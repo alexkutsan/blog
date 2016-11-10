@@ -25,7 +25,6 @@ And image inserting:
 *Pretty kitty*
 
 Also pice of code:
-
 {% highlight C++ %} 
 int main() {
   return 0;
