@@ -176,6 +176,12 @@ ul {
 				margin: auto;
 			}
 		}
+		
+		img.small_image {
+		  width: 300px;
+		  height: 300px;
+		}
+		
 		code {
 			padding: 3px;
 			font-size: 0.9em;
@@ -199,6 +205,8 @@ ul {
 			border: 0;
 			border-bottom: 1px dashed $color-black;
 		}
+		
+		
 	}
 }
 
@@ -232,6 +240,8 @@ ul {
 		}
 	}
 }
+
+
 
 .tag {
 	a {
