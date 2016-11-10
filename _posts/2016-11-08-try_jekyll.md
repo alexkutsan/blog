@@ -23,7 +23,7 @@ Main changes:
 - blog posts comments with https://disqus.com/ 
 
 ### Jekyll test:
-#### Common markdown staff
+### Common markdown staff
 Also I *would* **like** `to test` ```some features``` ~~of markdown~~ in this post :-)
 > For exmaple markdown comments
 
@@ -35,12 +35,7 @@ Also I *would* **like** `to test` ```some features``` ~~of markdown~~ in this po
 2. Markdown
 3. lists
 
-- [x] Task
-- [ ] lists
-- [x] with
-- [x] Markdown
-
-#### Tables:
+### Tables:
 
 First Header | Second Header
 ------------ | -------------
@@ -48,27 +43,20 @@ Content from cell 1 | Content from cell 2
 Content in the first column | Content in the second column
 
 
-#### And image inserting:
+### And image inserting:
 ![small kkitty](/staff/images.duckduckgo.com.jpe){:class="small"}
 ![medium kitty](/staff/images.duckduckgo.com.jpe){:class="medium"}
 ![large kitty](/staff/images.duckduckgo.com.jpe){:class="large"}
 ![extra large kitty](/staff/images.duckduckgo.com.jpe){:class="extralarge"}
 
 
-#### Also pice of code :
+### Also pice of code :
 {% highlight C++ %} 
 int main() {
   return 0;
 }
 {% endhighlight %}
 
-
-
-And Task list 
-- [x] @mentions, #refs, [links](), **formatting**, and <del>tags</del> supported
-- [x] list syntax required (any unordered or ordered list supported)
-- [x] this is a complete item
-- [ ] this is an incomplete item
 
 End using emoji:
 bowtie:
