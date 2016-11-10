@@ -21,7 +21,7 @@ Main changes:
 
 Also I *would* **like** `to test` ```some features``` _*of markdown*_ in this post :-)
 And image inserting:
-![pretty kitty](/staff/images.duckduckgo.com.jpe | width=48)
+![pretty kitty](/staff/images.duckduckgo.com.jpe){class="small_image"}
 *Pretty kitty*
 
 Also pice of code:
