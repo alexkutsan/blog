@@ -18,7 +18,9 @@ sass:
   style: :compressed
   sass_dir: _sass
 
-
+gems:
+  - jemoji
+  
 # Markdown
 markdown: kramdown
 kramdown:
