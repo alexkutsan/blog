@@ -25,7 +25,7 @@ And image inserting:
 ![small kkitty](/staff/images.duckduckgo.com.jpe){:class="small"}
 ![medium kitty](/staff/images.duckduckgo.com.jpe){:class="medium"}
 ![large kitty](/staff/images.duckduckgo.com.jpe){:class="large"}
-![extra large kitty](/staff/images.duckduckgo.com.jpe){:class="extra large"}
+![extra large kitty](/staff/images.duckduckgo.com.jpe){:class="extralarge"}
 
 Also pice of code:
 {% highlight C++ %} 
